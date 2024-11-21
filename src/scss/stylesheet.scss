@@ -17,6 +17,7 @@ body {
   letter-spacing: 0.2px;
 }
 
+// font weight and size
 .section-title,
 .card-title,
 .sidebar-header {
@@ -38,6 +39,7 @@ body {
   font-size: 16px;
 }
 
+// change color after hover
 .nav-item .nav-link{
   &:hover {
     font-weight: $bold-font-weight;
@@ -64,6 +66,7 @@ body {
   }
 }
 
+// icons on top
 .btn {
   color: $base-color;
 
@@ -77,6 +80,7 @@ a {
   text-decoration: none;
 }
 
+// more font weight and size
 .numbers {
   font-weight: $bold-font-weight;
   font-size: $number-font-size;
