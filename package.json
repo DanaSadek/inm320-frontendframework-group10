@@ -1,14 +1,18 @@
 {
-  "name": "inm320-frontendframework-group10",
+  "name": "overview",
   "version": "1.0.0",
   "scripts": {
-    "start": "lite-server --baseDir=\"public\""
+    "goservergo": "lite-server --baseDir=\"public\"",
+    "overviewpage":"sass --watch src/scss:public/assets/css",
+    "start":"concurrently \"npm run goservergo\" \"npm run overviewpage\""
   },
-  "author": "Dana and Yuuri",
+  "author": "Dana and Yuri",
   "license": "private",
   "private": true,
   "description": "",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "concurrently": "^9.1.0",
+    "lite-server": "^2.6.1",
+    "sass": "^1.81.0"
   }
 }
