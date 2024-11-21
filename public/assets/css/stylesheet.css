@@ -19,4 +19,65 @@ body {
   font-weight: 600;
 }
 
+.nav-link,
+.card-title-chart {
+  color: #9fa2b4;
+  font-size: 16px;
+}
+
+.nav-item .nav-link:hover {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: rgba(159, 162, 180, 0.2);
+  border-left: 3px solid #ffffff;
+}
+
+.card-small:hover .card-title,
+.card-small:hover h3 {
+  color: #007bff;
+  cursor: pointer;
+  border-color: #007bff;
+}
+
+.card:hover {
+  border-color: #007bff;
+}
+
+.btn {
+  color: #9fa2b4;
+}
+.btn:hover {
+  scale: 1.2;
+  color: #007bff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.numbers {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.list-group-item,
+.user,
+.small-link {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+button {
+  border: none;
+}
+
+.badge {
+  font-weight: bold;
+  font-size: 11px;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */

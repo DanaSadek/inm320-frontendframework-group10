@@ -31,3 +31,73 @@ body {
     font-weight: 600;
   }
 }
+
+.nav-link,
+.card-title-chart {
+  color: $base-color;
+  font-size: 16px;
+}
+
+.nav-item .nav-link{
+  &:hover {
+    font-weight: $bold-font-weight;
+    color: #ffffff;
+    background-color: $light-hover-bg;
+    border-left: 3px solid #ffffff;
+  }
+}
+
+.card-small {
+  &:hover {
+    .card-title,
+    h3 {
+      color: $hover-color;
+      cursor: pointer;
+      border-color: $hover-color;
+    }
+  }
+}
+
+.card {
+  &:hover {
+    border-color: $hover-color;
+  }
+}
+
+.btn {
+  color: $base-color;
+
+  &:hover {
+    scale: 1.2;
+    color: $hover-color;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.numbers {
+  font-weight: $bold-font-weight;
+  font-size: $number-font-size;
+}
+
+.small-text {
+  font-size: $small-font-size;
+}
+
+.list-group-item,
+.user,
+.small-link {
+  font-weight: 600;
+  font-size: $base-font-size;
+}
+
+button {
+  border: none;
+}
+
+.badge {
+  font-weight: $bold-font-weight;
+  font-size: 11px;
+}
