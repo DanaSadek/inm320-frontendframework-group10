@@ -1,0 +1,33 @@
+// Variables
+$font-family: "Mulish", sans-serif;
+$base-color: #9fa2b4;
+$hover-color: #007bff;
+$light-hover-bg: rgba(159, 162, 180, 0.2);
+$bold-font-weight: bold;
+$base-font-size: 14px;
+$small-font-size: 12px;
+$large-font-size: 19px;
+$number-font-size: 40px;
+
+// General styles
+body {
+  font-family: $font-family;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.section-title,
+.card-title,
+.sidebar-header {
+  font-weight: $bold-font-weight;
+  font-size: $large-font-size;
+}
+
+.card-title {
+  color: $base-color;
+
+  &.card-title-chart {
+    font-weight: 600;
+  }
+}
