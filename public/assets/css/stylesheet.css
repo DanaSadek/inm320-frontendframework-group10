@@ -1,3 +1,22 @@
+body {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
 
+.section-title,
+.card-title,
+.sidebar-header {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.card-title {
+  color: #9fa2b4;
+}
+.card-title.card-title-chart {
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */
